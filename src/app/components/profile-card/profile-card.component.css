@@ -1,0 +1,71 @@
+.profile-container{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-right: 25px;
+    margin-top: 20px;
+    background-color: rgb(241, 230, 243);
+    border-radius: 10px;
+}
+
+.profile-container > img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.profile-title > h1{
+    font-size: 25px;
+    background-color: rgb(241, 230, 243);
+}
+
+.profile-text{
+    background-color: rgb(241, 230, 243);
+}
+
+.profile-text > p{
+    display: flex;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(241, 230, 243);
+    text-align: center;
+}
+
+.profile-links{
+    background-color: rgb(241, 230, 243);
+}
+
+.fa {
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+.fa-github{
+    background-color: rgb(241, 230, 243);
+    margin-left: 50px;
+}
+
+.fa-linkedin{
+    background-color: rgb(241, 230, 243);
+}
+
+.profile-dio{
+    background-color: rgb(241, 230, 243);
+    margin-left: -60px;
+    margin-top: -30px;
+}
+
+.DIO{
+    background-color: rgb(241, 230, 243);
+    font-size: 25px;
+}

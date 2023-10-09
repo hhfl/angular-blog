@@ -1,0 +1,106 @@
+/* CSS menu-bar */
+.menu-bar-container{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(241, 230, 243);
+    margin-right: 100px;
+  }
+  
+  .profile-links{
+    background-color: rgb(241, 230, 243);
+  }
+  
+  .fa {
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+  
+  .fa-github{
+    background-color: rgb(241, 230, 243);
+    margin-left: 200px;
+  }
+  
+  .fa-search{
+    margin-left: 1200px;
+    margin-right: 10px;
+  }
+  
+  .profile-dio{
+    background-color: rgb(241, 230, 243);
+    margin-left: 150px;
+    margin-top: -30px;
+  }
+  
+  .DIO{
+    background-color: rgb(241, 230, 243);
+    font-size: 25px;
+    height: 5px;
+  }
+  
+  .submenu-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submenu-icons > ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .submenu-icons > ul > li{
+    margin-right: 20px;
+    list-style: none;
+  }
+  
+  .menu-bar-logo{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo{
+    width: 40px;
+    height: 40px;
+    background-image: url('https://scontent-gru1-2.xx.fbcdn.net/v/t39.30808-6/384271332_6109746649127383_5644530375983191209_n.jpg?stp=dst-jpg_p526x296&_nc_cat=100&ccb=1-7&_nc_sid=49d041&_nc_ohc=-oPkHsCr-rwAX9YHgU5&_nc_ht=scontent-gru1-2.xx&oh=00_AfDBwyfYWmrhAZpICMUe-RVE1AFafXLpA-SBS95qjGCWpA&oe=65277F52');
+    background-size: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+/* CSS content-component */
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.content-title{
+    color: rgb(185, 141, 226);
+    width: 750px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.content-cover{
+    margin-bottom: 30px;
+}
+
+.content-cover > img{
+  width: 100%;
+  height: 432px;
+  border-radius: 10px;
+}
+
+.content-description{
+    width: 700px;
+}

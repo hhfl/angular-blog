@@ -1,0 +1,33 @@
+.big-card-container{
+  border-radius: 5px;
+  width: 770px;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 150px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.big-card-title > h1{
+  font-size: 22px;
+  margin-top: 10px;
+  color: rgb(185, 141, 226);
+}
+
+.big-card-text{
+  margin-top: 10px;
+}
+
+.big-card-picture > img{
+  width: 100%;
+  min-width: 510px;
+  height: 432px;
+  border-radius: 10px;
+}
+
+a:visited{
+  color: black;
+}
